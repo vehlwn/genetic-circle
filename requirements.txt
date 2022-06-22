@@ -1,2 +1,4 @@
 tensorflow
 tensorflow_probability
+numpy
+matplotlib
