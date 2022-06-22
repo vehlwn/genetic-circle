@@ -36,7 +36,6 @@ def objective(center_x, center_y):
         ret += tf.cast(
             tf.math.sqrt(delta_x ** 2 + delta_y ** 2) <= radius, tf.float32
         )
-    print(f"{ret=}")
     return -ret
 
 
