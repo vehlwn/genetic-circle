@@ -1,6 +1,6 @@
 # genetic-circle
 
-Finds position for a circle with a given radius that spans the maximum number of given points.
+Finds position for a circle with a given radius that spans the maximum number of given points with [tfp.optimizer.differential_evolution_minimize](https://www.tensorflow.org/probability/api_docs/python/tfp/optimizer/differential_evolution_minimize).
 
 Takes input in a text file input.txt on separate lines with the following structure:
 - radius - float number;
